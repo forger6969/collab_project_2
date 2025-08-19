@@ -28,15 +28,49 @@
 
 .main-2-right-text {
     font-family: "Public Sans";
-    font-weight:400;
+    font-weight: 400;
     font-size: 15px;
     color: #6C8294;
     width: 445px;
     padding-bottom: 60px;
 }
 
-.main-wrapper-2{
+.main-wrapper-2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.card-circle {
+    width: 106px;
+    height: 106px;
+    border-radius: 100%;
+    background-color: #36536B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-text {
+    font-family: "Public sans";
+    font-weight: 700;
+    font-size: 18px;
+    color: #36536B;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    gap: 30px;
+}
+
+.main-wrapper-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
 }
