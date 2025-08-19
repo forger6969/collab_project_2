@@ -68,9 +68,48 @@
     gap: 30px;
 }
 
-.main-wrapper-3{
+.main-wrapper-3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+}
+
+.footer {
+    background-color: #1B262F;
+    height: 100px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-link {
+    font-family: "Public Sans";
+    font-weight: 700;
+    font-size: 15px;
+    color: #FBFCFE;
+    opacity: 70%;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
