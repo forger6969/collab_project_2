@@ -19,6 +19,9 @@
     margin: 0 auto;
 }
 
+
+/* bundan pastiga teyma mani mediam tepasiga yoz */
+
 .main-2-right-item {
     font-family: "DM Serif Display";
     font-weight: 400;
@@ -116,6 +119,8 @@
 
 @media screen and (max-width:1209px) {
 
+    /* bundan pastiga teyma mani mediam tepasiga yoz */
+
     .main-2-left-img {
         width: 500px;
     }
@@ -126,6 +131,8 @@
 }
 
 @media screen and (max-width:1016px) {
+
+    /* bundan pastiga teyma mani mediam tepasiga yoz */
 
     .main-2-left-img {
         width: 460px;
@@ -149,6 +156,8 @@
 
 @media screen and (max-width:902px) {
 
+    /* bundan pastiga teyma mani mediam tepasiga yoz */
+
     .main-2-left-img {
         width: 410px;
     }
@@ -168,63 +177,68 @@
 }
 
 @media screen and (max-width:835px) {
+
+    /* bundan pastiga teyma mani mediam tepasiga yoz */
     .main-wrapper-2 {
         flex-direction: column;
     }
 
-    .main-2-left-img{
+    .main-2-left-img {
         width: 500px;
     }
 
-    .main-2-right-item{
+    .main-2-right-item {
         font-size: 48px;
         text-align: center;
         width: 400px;
         margin: 0 auto;
     }
 
-    .main-2-right-text{
+    .main-2-right-text {
         width: 573px;
         text-align: center;
     }
 
-    .main-2-right{
+    .main-2-right {
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
 
-    .main-wrapper-2{
+    .main-wrapper-2 {
         padding-bottom: 100px;
     }
 
 }
 
-@media  screen and (max-width:628px) {
+@media screen and (max-width:628px) {
 
-    .card-circle{
+
+    /* bundan pastiga teyma mani mediam tepasiga yoz */
+
+    .card-circle {
         width: 90px;
         height: 90px;
     }
 
-    .card-circle img{
+    .card-circle img {
         width: 35px;
     }
 
-    .main-wrapper-3{
+    .main-wrapper-3 {
         display: flex;
         justify-content: space-between;
     }
 
-    .card-text{
+    .card-text {
         font-size: 16px;
     }
 
-    .footer-right{
+    .footer-right {
         display: none;
     }
 
-    .footer-left{
+    .footer-left {
         justify-content: space-between;
         width: 100%;
     }
@@ -233,15 +247,18 @@
 
 @media screen and (max-width:574px) {
 
-    .main-2-right-text{
+
+    /* bundan pastiga teyma mani mediam tepasiga yoz */
+
+    .main-2-right-text {
         width: 400px;
     }
 
-    .main-2-left-img{
+    .main-2-left-img {
         width: 400px;
     }
-    
-    .main-wrapper-3{
+
+    .main-wrapper-3 {
         align-items: center;
     }
 
@@ -249,58 +266,60 @@
 
 @media screen and (max-width:489px) {
 
-    .main-wrapper-3{
+    /* bundan pastiga teyma mani mediam tepasiga yoz */
+
+    .main-wrapper-3 {
         flex-direction: column;
         gap: 130px;
     }
 
-    .card-circle{
+    .card-circle {
         width: 106px;
         height: 106px;
     }
 
-    .card-text{
+    .card-text {
         font-size: 18px;
     }
 
-    .main-2-right-text{
+    .main-2-right-text {
         font-size: 15px;
         width: 100%;
     }
 
-    .main-2-left-img{
+    .main-2-left-img {
         width: 100%;
     }
-    
-    .footer{
+
+    .footer {
         height: 353px;
 
     }
 
-    .footer-left{
+    .footer-left {
         flex-direction: column;
     }
 
-    .footer-logo{
+    .footer-logo {
         width: 135px;
     }
 
-    .footer-link{
+    .footer-link {
         font-size: 15px;
     }
 
-    .footer-list{
+    .footer-list {
         flex-direction: column;
     }
 
-    .footer-right{
+    .footer-right {
         display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 30px;
     }
 
-    .footer-wrapper{
+    .footer-wrapper {
         flex-direction: column;
     }
 
