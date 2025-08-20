@@ -390,9 +390,13 @@ header {
         font-size: 18px;
     }
 
+    .main-2-right-item{
+        width: 300px;
+    }
+
     .main-2-right-text {
         font-size: 15px;
-        width: 100%;
+        width: 300px;
     }
 
     .main-2-left-img {
@@ -434,6 +438,7 @@ header {
     .main-left {
         font-size: 48px;
         text-align: center;
+        width: 300px;
     }
 
     .none {
